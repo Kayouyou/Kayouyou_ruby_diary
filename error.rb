@@ -5,7 +5,6 @@ while true
 	begin
 		puts(a/b)
 	rescue Exception => e
-		puts("输入不能为零！！！")
+		puts("输入不能为零o！！！")
 	end
-
 end
