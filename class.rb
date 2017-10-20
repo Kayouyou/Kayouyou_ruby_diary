@@ -21,4 +21,11 @@ class Student
 end
 
 s = Student.new("jim", "1", "man", "27")
-s.greeting
+# s.greeting #这里greeting 被标注Wie私有方法 所以不能
+s.name= "jack" 
+puts s.name
+
+Student::Version
+
+
+
