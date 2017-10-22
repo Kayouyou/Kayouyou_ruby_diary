@@ -37,6 +37,26 @@ end
 
 college = UniversityStudent.new("jim","28","female")
 college.say_english
+ 
+#扩充类,直接写一个类，想添加的方法直接类中添加就行了
+class String
+
+	def self.nickname
+		puts "Kayouyou"
+	end
+end
+
+String.nickname
+
+#模块是什么？ 比如math 
+puts Math::PI #3.141592653589793
+
+
+
+
+
+
+
 
 
 
