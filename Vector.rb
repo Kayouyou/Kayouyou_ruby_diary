@@ -19,3 +19,7 @@ b = Vector.new(1,2)
 c = a + b
 puts c.x  
 
+
+#终端运行命令 
+# 1，irb
+# 2，require "file path"
